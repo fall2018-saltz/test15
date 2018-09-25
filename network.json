@@ -43,6 +43,16 @@
             ],
             "source": "data.csv",
             "target": "generateHist.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "strOut",
+                    "type": "txt"
+                }
+            ],
+            "source": "generateHist.R",
+            "target": "strOutput.txt"
         }
     ],
     "nodes": [
@@ -69,6 +79,6 @@
             "name": "strOutput.txt"
         }
     ],
-    "updated_at": "2018-09-25 18:33:34",
+    "updated_at": "2018-09-25 18:33:57",
     "url": "https://github.com/fall2018-saltz/test15"
 }
