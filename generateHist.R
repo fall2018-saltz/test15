@@ -1,4 +1,4 @@
 
 hist <- hist(df$Ozone)
 
-strOut <- str(df)
+strOut = capture.output(str(df))
