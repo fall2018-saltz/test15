@@ -33,7 +33,7 @@
                 }
             ],
             "source": "clean.R",
-            "target": "generateHist.R"
+            "target": "generateSubset.R"
         }
     ],
     "nodes": [
@@ -49,9 +49,9 @@
             "name": "data.csv"
         },
         {
-            "name": "generateHist.R"
+            "name": "generateSubset.R"
         }
     ],
-    "updated_at": "2018-09-25 15:50:18",
+    "updated_at": "2018-09-25 15:56:45",
     "url": "https://github.com/fall2018-saltz/test15"
 }
