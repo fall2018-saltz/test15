@@ -34,6 +34,16 @@
             ],
             "source": "clean.R",
             "target": "generateSubset.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "HistPlot.png"
         }
     ],
     "nodes": [
@@ -55,6 +65,6 @@
             "name": "HistPlot.png"
         }
     ],
-    "updated_at": "2018-09-25 15:59:18",
+    "updated_at": "2018-09-25 15:59:50",
     "url": "https://github.com/fall2018-saltz/test15"
 }
