@@ -1,1 +1,2 @@
 
+hist <- hist(df$Ozone)
