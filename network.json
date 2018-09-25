@@ -44,6 +44,17 @@
             ],
             "source": "generateHist.R",
             "target": "HistPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df1",
+                    "output": "clean_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "testMe.R"
         }
     ],
     "nodes": [
@@ -68,6 +79,6 @@
             "name": "testMe.R"
         }
     ],
-    "updated_at": "2018-09-25 16:03:44",
+    "updated_at": "2018-09-25 16:03:57",
     "url": "https://github.com/fall2018-saltz/test15"
 }
