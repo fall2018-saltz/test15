@@ -1,5 +1,5 @@
 
 #clean_data <- raw_data
 clean_data <- na.omit(raw_data)
-raw_data[1:10,]
-clean_data[1:10,]
+#raw_data[1:10,]
+#clean_data[1:10,]
