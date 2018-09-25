@@ -33,6 +33,16 @@
             ],
             "source": "generateHist.R",
             "target": "HistPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "generateHist.R"
         }
     ],
     "nodes": [
@@ -54,6 +64,6 @@
             "name": "HistPlot.png"
         }
     ],
-    "updated_at": "2018-09-25 18:29:05",
+    "updated_at": "2018-09-25 18:29:48",
     "url": "https://github.com/fall2018-saltz/test15"
 }
