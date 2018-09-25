@@ -33,7 +33,7 @@
                 }
             ],
             "source": "clean.R",
-            "target": "generateSubset.R"
+            "target": "generateHist.R"
         },
         {
             "ports": [
@@ -42,7 +42,7 @@
                     "type": "png"
                 }
             ],
-            "source": "generateSubset.R",
+            "source": "generateHist.R",
             "target": "HistPlot.png"
         }
     ],
@@ -59,12 +59,12 @@
             "name": "data.csv"
         },
         {
-            "name": "generateSubset.R"
+            "name": "generateHist.R"
         },
         {
             "name": "HistPlot.png"
         }
     ],
-    "updated_at": "2018-09-25 16:00:35",
+    "updated_at": "2018-09-25 16:01:08",
     "url": "https://github.com/fall2018-saltz/test15"
 }
