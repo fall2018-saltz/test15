@@ -1,0 +1,57 @@
+{
+    "collaborators": [
+        "jsaltz"
+    ],
+    "created_at": "2018-09-25 14:36:02",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "raw_data.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "output": "clean_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "generateHist.R"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "raw_data.csv"
+        },
+        {
+            "assigned_to": "jsaltz",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "name": "generateHist.R"
+        }
+    ],
+    "updated_at": "2018-09-25 15:50:18",
+    "url": "https://github.com/fall2018-saltz/test15"
+}
