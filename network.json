@@ -58,12 +58,17 @@
             "name": "data.csv"
         },
         {
-            "name": "generateHist.R"
+            "assigned_to": "jsaltz",
+            "name": "generateHist.R",
+            "task_status": "in progress"
         },
         {
             "name": "HistPlot.png"
+        },
+        {
+            "name": "strOutput.txt"
         }
     ],
-    "updated_at": "2018-09-25 18:29:48",
+    "updated_at": "2018-09-25 18:33:34",
     "url": "https://github.com/fall2018-saltz/test15"
 }
