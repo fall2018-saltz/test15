@@ -1,0 +1,84 @@
+{
+    "collaborators": [
+        "jsaltz"
+    ],
+    "created_at": "2018-09-25 14:36:02",
+    "edges": [
+        {
+            "ports": [
+                {
+                    "input": "raw_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "raw_data.csv",
+            "target": "clean.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist",
+                    "type": "png"
+                }
+            ],
+            "source": "generateHist.R",
+            "target": "HistPlot.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "generateHist.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "strOut",
+                    "type": "txt"
+                }
+            ],
+            "source": "generateHist.R",
+            "target": "strOutput.txt"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "raw_data.csv"
+        },
+        {
+            "assigned_to": "jsaltz",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "data.csv"
+        },
+        {
+            "assigned_to": "jsaltz",
+            "name": "generateHist.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "HistPlot.png"
+        },
+        {
+            "name": "strOutput.txt"
+        }
+    ],
+    "updated_at": "2018-09-25 18:33:57",
+    "url": "https://github.com/fall2018-saltz/test15"
+}
