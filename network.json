@@ -27,34 +27,12 @@
         {
             "ports": [
                 {
-                    "input": "df",
-                    "output": "clean_data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "generateHist.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "hist",
                     "type": "png"
                 }
             ],
             "source": "generateHist.R",
             "target": "HistPlot.png"
-        },
-        {
-            "ports": [
-                {
-                    "input": "df1",
-                    "output": "clean_data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "testMe.R"
         }
     ],
     "nodes": [
@@ -74,11 +52,8 @@
         },
         {
             "name": "HistPlot.png"
-        },
-        {
-            "name": "testMe.R"
         }
     ],
-    "updated_at": "2018-09-25 16:03:57",
+    "updated_at": "2018-09-25 18:29:05",
     "url": "https://github.com/fall2018-saltz/test15"
 }
