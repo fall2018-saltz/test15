@@ -54,6 +54,17 @@
             ],
             "source": "generateHist.R",
             "target": "strOutput.txt"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "output": "clean_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "CreateSubset.R"
         }
     ],
     "nodes": [
@@ -78,8 +89,11 @@
         },
         {
             "name": "strOutput.txt"
+        },
+        {
+            "name": "CreateSubset.R"
         }
     ],
-    "updated_at": "2018-09-25 20:25:59",
+    "updated_at": "2018-09-26 14:16:50",
     "url": "https://github.com/fall2018-saltz/test15"
 }
