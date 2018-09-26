@@ -72,11 +72,6 @@
             "name": "raw_data.csv"
         },
         {
-            "assigned_to": "jsaltz",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "data.csv"
         },
         {
@@ -91,9 +86,16 @@
             "name": "strOutput.txt"
         },
         {
-            "name": "CreateSubset.R"
+            "assigned_to": "swalla02@syr.edu",
+            "name": "CreateSubset.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "jsaltz",
+            "name": "clean.R",
+            "task_status": "validating"
         }
     ],
-    "updated_at": "2018-09-26 14:31:34",
+    "updated_at": "2018-09-26 14:48:27",
     "url": "https://github.com/fall2018-saltz/test15"
 }
