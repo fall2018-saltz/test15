@@ -87,15 +87,15 @@
         },
         {
             "assigned_to": "jsaltz",
-            "name": "clean.R",
+            "name": "generateHist.R",
             "task_status": "validating"
         },
         {
             "assigned_to": "jsaltz",
-            "name": "generateHist.R",
-            "task_status": "validating"
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-09-26 20:31:59",
+    "updated_at": "2018-09-26 20:32:28",
     "url": "https://github.com/fall2018-saltz/test15"
 }
