@@ -58,7 +58,6 @@
         {
             "ports": [
                 {
-                    "input": "df",
                     "output": "clean_data",
                     "type": "r_obj"
                 }
@@ -94,6 +93,6 @@
             "name": "CreateSubset.R"
         }
     ],
-    "updated_at": "2018-09-26 14:16:50",
+    "updated_at": "2018-09-26 14:22:47",
     "url": "https://github.com/fall2018-saltz/test15"
 }
