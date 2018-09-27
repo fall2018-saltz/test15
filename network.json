@@ -78,8 +78,11 @@
             "assigned_to": "not assigned",
             "name": "generateHist.R",
             "task_status": "proposed"
+        },
+        {
+            "name": "subset.R"
         }
     ],
-    "updated_at": "2018-09-27 12:10:53",
+    "updated_at": "2018-09-27 12:11:08",
     "url": "https://github.com/fall2018-saltz/test15"
 }
