@@ -28,16 +28,6 @@
         {
             "ports": [
                 {
-                    "output": "hist",
-                    "type": "png"
-                }
-            ],
-            "source": "generateHist.R",
-            "target": "HistPlot.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "df",
                     "output": "df",
                     "type": "r_obj"
@@ -55,6 +45,16 @@
             ],
             "source": "data.csv",
             "target": "subset.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist",
+                    "type": "png"
+                }
+            ],
+            "source": "generateHist.R",
+            "target": "newHist.png"
         }
     ],
     "nodes": [
@@ -87,6 +87,6 @@
             "name": "newHist.png"
         }
     ],
-    "updated_at": "2018-09-27 12:23:53",
+    "updated_at": "2018-09-27 12:24:18",
     "url": "https://github.com/fall2018-saltz/test15"
 }
