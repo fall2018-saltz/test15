@@ -39,22 +39,22 @@
             "ports": [
                 {
                     "input": "df",
-                    "type": "csv"
-                }
-            ],
-            "source": "data.csv",
-            "target": "subset.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "df",
                     "output": "df",
                     "type": "r_obj"
                 }
             ],
             "source": "subset.R",
             "target": "generateHist.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfInput",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "subset.R"
         }
     ],
     "nodes": [
@@ -84,6 +84,6 @@
             "name": "subset.R"
         }
     ],
-    "updated_at": "2018-09-27 12:12:13",
+    "updated_at": "2018-09-27 12:18:10",
     "url": "https://github.com/fall2018-saltz/test15"
 }
