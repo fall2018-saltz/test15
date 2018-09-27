@@ -54,17 +54,6 @@
             ],
             "source": "generateHist.R",
             "target": "strOutput.txt"
-        },
-        {
-            "ports": [
-                {
-                    "input": "df",
-                    "output": "clear_data2",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "clean.R",
-            "target": "CreateSubset.R"
         }
     ],
     "nodes": [
@@ -81,21 +70,16 @@
             "name": "strOutput.txt"
         },
         {
-            "assigned_to": "swalla02@syr.edu",
-            "name": "CreateSubset.R",
-            "task_status": "not started"
-        },
-        {
-            "assigned_to": "jsaltz",
-            "name": "generateHist.R",
-            "task_status": "validating"
-        },
-        {
             "assigned_to": "jsaltz",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "not assigned",
+            "name": "generateHist.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-09-26 20:57:48",
+    "updated_at": "2018-09-27 12:10:53",
     "url": "https://github.com/fall2018-saltz/test15"
 }
