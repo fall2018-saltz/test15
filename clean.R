@@ -7,4 +7,4 @@ sum(is.na(clean_data))
 #clean_data[1:10,]
 
 clear_data2 <- clean_data
-asdf
+
