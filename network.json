@@ -87,13 +87,15 @@
             "name": "newHist.png"
         },
         {
-            "desc": "",
-            "name": "ggplotTest.R"
+            "name": "GetCensus.csv"
         },
         {
-            "name": "GetCensus.csv"
+            "assigned_to": "not assigned",
+            "desc": "",
+            "name": "MergeCensusAndArrests.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-02 16:33:22",
+    "updated_at": "2018-10-02 16:34:07",
     "url": "https://github.com/fall2018-saltz/test15"
 }
