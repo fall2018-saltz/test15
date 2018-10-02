@@ -55,6 +55,16 @@
             ],
             "source": "generateHist.R",
             "target": "newHist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MergedDF",
+                    "type": "csv"
+                }
+            ],
+            "source": "MergeCensusAndArrests.R",
+            "target": "MergeData.csv"
         }
     ],
     "nodes": [
@@ -99,6 +109,6 @@
             "name": "MergeData.csv"
         }
     ],
-    "updated_at": "2018-10-02 16:34:25",
+    "updated_at": "2018-10-02 16:35:24",
     "url": "https://github.com/fall2018-saltz/test15"
 }
