@@ -5,7 +5,7 @@
   localFile
   #states <- read.csv(url(csvFile))
   #install.packages("httr")
-  library(httr)
+  #library(httr)
   
   # -- only once 
   GET(fileToRead, write_disk(localFile))
