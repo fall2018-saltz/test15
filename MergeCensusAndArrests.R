@@ -9,6 +9,7 @@
   
   # -- only once 
   GET(fileToRead, write_disk(localFile))
+  localFile
   localFile <- "/var/folders/yz/7kxbn9kn68z0chlvk4khdf9c0000gn/T//Rtmp9Mk1IE/file18f570e571c.csv"
   states <- read.csv(localFile)
   
