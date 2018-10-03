@@ -1,6 +1,6 @@
 
   
-  str(census)
+ # str(census)
 
   
 # create a function called "readStates" that can read in a CSV file from a URL
