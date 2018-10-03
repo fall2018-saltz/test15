@@ -75,6 +75,16 @@
             ],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "MergeCensusAndArrests.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist",
+                    "type": "png"
+                }
+            ],
+            "source": "generateHist.R",
+            "target": "hist.png"
         }
     ],
     "nodes": [
@@ -125,6 +135,6 @@
             "name": "hist.png"
         }
     ],
-    "updated_at": "2018-10-03 21:08:23",
+    "updated_at": "2018-10-03 21:08:35",
     "url": "https://github.com/fall2018-saltz/test15"
 }
