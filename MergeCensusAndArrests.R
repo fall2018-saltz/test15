@@ -1,23 +1,7 @@
 
-  csvFile <- "http://www2.census.gov/programs-surveys/popest/datasets/2010-2017/state/asrh/scprc-est2017-18+pop-res.csv"
-  states <- read.csv(url(csvFile))
-  str(states)
+  
+  str(census)
 
-  localFile <- tempfile(fileext = ".csv")
-  fileToRead <- "https://www2.census.gov/programs-surveys/popest/datasets/2010-2017/state/asrh/scprc-est2017-18+pop-res.csv"
-  fileToRead
-  localFile
-  #states <- read.csv(url(csvFile))
-  #install.packages("httr")
-  #library(httr)
-  
-  # -- only once 
-  GET(fileToRead, write_disk(localFile))
-  localFile
-  
-  localFile <- "/var/folders/yz/7kxbn9kn68z0chlvk4khdf9c0000gn/T//Rtmp9Mk1IE/file18f570e571c.csv"
-  states <- read.csv(localFile)
-  
   
 # create a function called "readStates" that can read in a CSV file from a URL
 readStates <- function()
