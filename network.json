@@ -65,6 +65,16 @@
             ],
             "source": "MergeCensusAndArrests.R",
             "target": "MergeData.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "MergeCensusAndArrests.R"
         }
     ],
     "nodes": [
@@ -112,6 +122,6 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         }
     ],
-    "updated_at": "2018-10-03 20:58:32",
+    "updated_at": "2018-10-03 20:58:53",
     "url": "https://github.com/fall2018-saltz/test15"
 }
