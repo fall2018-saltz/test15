@@ -1,5 +1,6 @@
 {
     "collaborators": [
+        "swallace",
         "jsaltz"
     ],
     "created_at": "2018-09-25 14:36:02",
@@ -27,32 +28,63 @@
         {
             "ports": [
                 {
-                    "output": "hist",
-                    "type": "png"
-                }
-            ],
-            "source": "generateHist.R",
-            "target": "HistPlot.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "df",
-                    "type": "csv"
+                    "output": "df",
+                    "type": "r_obj"
                 }
             ],
-            "source": "data.csv",
+            "source": "subset.R",
             "target": "generateHist.R"
         },
         {
             "ports": [
                 {
-                    "output": "strOut",
-                    "type": "txt"
+                    "input": "dfInput",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "subset.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist",
+                    "type": "png"
                 }
             ],
             "source": "generateHist.R",
-            "target": "strOutput.txt"
+            "target": "newHist.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "MergedDF",
+                    "type": "csv"
+                }
+            ],
+            "source": "MergeCensusAndArrests.R",
+            "target": "MergeData.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "census",
+                    "type": "csv"
+                }
+            ],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "MergeCensusAndArrests.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist",
+                    "type": "png"
+                }
+            ],
+            "source": "generateHist.R",
+            "target": "hist.png"
         }
     ],
     "nodes": [
@@ -60,25 +92,49 @@
             "name": "raw_data.csv"
         },
         {
-            "assigned_to": "jsaltz",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "data.csv"
-        },
-        {
-            "assigned_to": "jsaltz",
-            "name": "generateHist.R",
-            "task_status": "in progress"
         },
         {
             "name": "HistPlot.png"
         },
         {
             "name": "strOutput.txt"
+        },
+        {
+            "assigned_to": "jsaltz",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "not assigned",
+            "name": "generateHist.R",
+            "task_status": "proposed"
+        },
+        {
+            "name": "subset.R"
+        },
+        {
+            "name": "newHist.png"
+        },
+        {
+            "name": "GetCensus.csv"
+        },
+        {
+            "assigned_to": "not assigned",
+            "desc": "",
+            "name": "MergeCensusAndArrests.R",
+            "task_status": "proposed"
+        },
+        {
+            "name": "MergeData.csv"
+        },
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "name": "hist.png"
         }
     ],
-    "updated_at": "2018-09-25 18:33:57",
+    "updated_at": "2018-10-03 21:08:35",
     "url": "https://github.com/fall2018-saltz/test15"
 }
